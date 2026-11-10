@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Share your contact details and describe the result you need. We will review the request and discuss the next step with you.">
+  <meta name="theme-color" content="#7554d9">
+  <meta name="robots" content="noindex">
+  <title>Discuss Your Project: Meta Qube Care</title>
+  <link rel="canonical" href="https://care.meta-qube.com/apply/">
+  <link rel="alternate" hreflang="en" href="https://care.meta-qube.com/apply/">
+  <link rel="alternate" hreflang="uk" href="https://care.meta-qube.com/ua/apply/">
+  <link rel="alternate" hreflang="ru" href="https://care.meta-qube.com/ru/apply/">
+  <link rel="alternate" hreflang="x-default" href="https://care.meta-qube.com/apply/">
+  <link rel="icon" href="https://meta-qube.com/favicon.ico" sizes="any">
+  <link rel="icon" href="https://meta-qube.com/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="https://meta-qube.com/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="https://meta-qube.com/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:title" content="Discuss Your Project: Meta Qube Care">
+  <meta property="og:description" content="Share your contact details and describe the result you need. We will review the request and discuss the next step with you.">
+  <meta property="og:url" content="https://care.meta-qube.com/apply/">
+  <meta property="og:image" content="https://meta-qube.com/images/metaqube.png">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="audience-care">
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <div class="header-top">
+      <a href="/" class="logo">
+        <img src="https://meta-qube.com/images/metaqube.png" alt="" width="36" height="36">
+        Meta Qube
+      </a>
+      <span class="audience-badge">Care</span>
+      <nav class="lang-switch" aria-label="Language">
+        <a href="/apply/" class="lang-link active" hreflang="en" aria-current="page">EN</a>
+        <a href="/ua/apply/" class="lang-link" hreflang="uk">UA</a>
+        <a href="/ru/apply/" class="lang-link" hreflang="ru">RU</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="/#services">Services</a>
+        <a href="/#process">How we work</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/apply/" class="nav-cta">Discuss your project</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="apply-page">
+      <div class="hero-bg" aria-hidden="true"><div class="hero-glow"></div><div class="hero-grid"></div></div>
+      <div class="container">
+        <header class="apply-header">
+          <a class="back-link" href="/">Back to Care</a>
+          <p class="eyebrow">Project request</p>
+          <h1>Tell us about your project</h1>
+          <p>Share your contact details and describe the result you need. We will review the request and discuss the next step with you.</p>
+          <p class="safety-note">Please do not include source code, passwords, API keys, or personal data about your users.</p>
+          <p class="safety-note">Fields marked * are required.</p>
+        </header>
+        <div id="wizard">
+          <ol class="stepper" aria-label="Request steps">
+            <li><button type="button" class="stepper-step" data-step="0"><span class="step-dot">1</span><span class="step-label">Contact</span></button></li>
+            <li><button type="button" class="stepper-step" data-step="1"><span class="step-dot">2</span><span class="step-label">Your task</span></button></li>
+            <li><button type="button" class="stepper-step" data-step="2"><span class="step-dot">3</span><span class="step-label">Review and send</span></button></li>
+          </ol>
+          <form id="request-form" novalidate>
+            <div class="wizard-card">
+              <div class="wizard-step active" data-step="0">
+                <div class="wizard-step-header"><h2 id="step-title-0" tabindex="-1">Contact</h2></div>
+                <div class="form-row">
+                  
+            <div class="form-group">
+              <label class="form-label" for="fullName">Full name <span class="req">*</span></label>
+              <input class="form-input" id="fullName" name="fullName" autocomplete="name" required aria-describedby="err-fullName">
+              <p class="field-error" id="err-fullName"></p>
+            </div>
+                  
+            <div class="form-group">
+              <label class="form-label" for="email">Email <span class="req">*</span></label>
+              <input class="form-input" id="email" name="email" type="email" autocomplete="email" required aria-describedby="err-email">
+              <p class="field-error" id="err-email"></p>
+            </div>
+                </div>
+                <div class="form-row">
+                  
+            <div class="form-group">
+              <label class="form-label" for="organization">Company or organisation</label>
+              <input class="form-input" id="organization" name="organization" autocomplete="organization" aria-describedby="err-organization">
+              <p class="field-error" id="err-organization"></p>
+            </div>
+                  
+            <div class="form-group">
+              <label class="form-label" for="role">Your role</label>
+              <input class="form-input" id="role" name="role" autocomplete="organization-title" aria-describedby="err-role">
+              <p class="field-error" id="err-role"></p>
+            </div>
+                </div>
+                
+            <div class="form-group">
+              <label class="form-label" for="preferredLanguage">Preferred language <span class="req">*</span></label>
+              <select class="form-select" id="preferredLanguage" name="preferredLanguage" required aria-describedby="err-preferredLanguage"><option value="en" selected>English</option><option value="uk">Українська</option><option value="ru">Русский</option></select>
+              <p class="field-error" id="err-preferredLanguage"></p>
+            </div>
+              </div>
+              <div class="wizard-step" data-step="1">
+                <div class="wizard-step-header"><h2 id="step-title-1" tabindex="-1">Your task</h2></div>
+                
+            <div class="form-group">
+              <label class="form-label" for="audience">Who are you representing? <span class="req">*</span></label>
+              <select class="form-select" id="audience" name="audience" required aria-describedby="err-audience"><option value="">Select an option</option><option value="startup">Startup</option><option value="investor">Investor or fund</option><option value="enterprise">Enterprise</option><option value="business">Business or delivery partner</option><option value="other">Other</option></select>
+              <p class="field-error" id="err-audience"></p>
+            </div>
+                <div class="form-group">
+                  <p class="form-label" id="services-label">What kind of help do you need? <span class="req">*</span></p>
+                  <div class="option-group" id="services" data-field="services" role="group" tabindex="-1" aria-labelledby="services-label" aria-describedby="err-services">
+                <label class="option-label"><input type="checkbox" name="services" value="assessment"> Technical assessment</label>
+                <label class="option-label"><input type="checkbox" name="services" value="recovery"> Recovery and modernisation</label>
+                <label class="option-label"><input type="checkbox" name="services" value="support"> Ongoing engineering support</label>
+                <label class="option-label"><input type="checkbox" name="services" value="ai_workflow"> Development and AI workflows</label>
+                <label class="option-label"><input type="checkbox" name="services" value="business_process"> Business process improvement</label>
+                <label class="option-label"><input type="checkbox" name="services" value="handover"> Engineering ownership and handover</label>
+                <label class="option-label"><input type="checkbox" name="services" value="unsure"> Help me choose</label>
+                  </div>
+                  <p class="field-error" id="err-services"></p>
+                </div>
+                <div class="form-row">
+                  
+            <div class="form-group">
+              <label class="form-label" for="projectName">Project or system name</label>
+              <input class="form-input" id="projectName" name="projectName" aria-describedby="err-projectName">
+              <p class="field-error" id="err-projectName"></p>
+            </div>
+                  
+            <div class="form-group">
+              <label class="form-label" for="projectUrl">Public project website</label>
+              <input class="form-input" id="projectUrl" name="projectUrl" type="url" inputmode="url" aria-describedby="err-projectUrl">
+              <p class="field-error" id="err-projectUrl"></p>
+            </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="summary">The situation and the result you need <span class="req">*</span></label>
+                  <textarea class="form-textarea" id="summary" name="summary" required aria-describedby="err-summary" placeholder="What is not working? How does it affect the business? What would a useful result look like?"></textarea>
+                  <p class="field-error" id="err-summary"></p>
+                </div>
+                
+            <div class="form-group">
+              <label class="form-label" for="technologies">Technologies, if known</label>
+              <input class="form-input" id="technologies" name="technologies" aria-describedby="err-technologies">
+              <p class="field-error" id="err-technologies"></p>
+            </div>
+                <div class="form-group">
+                  <label class="form-label" for="timeframe">When would you like to start? <span class="req">*</span></label>
+                  <select class="form-select" id="timeframe" name="timeframe" required aria-describedby="timeframe-note err-timeframe"><option value="">Select an option</option><option value="soon">As soon as possible</option><option value="month">Within a month</option><option value="quarter">Within three months</option><option value="exploring">Exploring options</option></select>
+                  <p class="form-hint" id="timeframe-note">This is a planning preference, not a confirmed response or delivery time.</p>
+                  <p class="field-error" id="err-timeframe"></p>
+                </div>
+              </div>
+              <div class="wizard-step" data-step="2">
+                <div class="wizard-step-header">
+                  <h2 id="step-title-2" tabindex="-1">Review and send</h2>
+                  <p class="step-desc">Check your details before sending. You can return to any step to make changes.</p>
+                </div>
+                <div id="form-status" class="submit-error" role="alert" aria-live="assertive"></div>
+                <section class="summary-block" aria-labelledby="summary-contact-title">
+                  <div class="summary-head"><h3 id="summary-contact-title">Contact</h3><button type="button" class="btn btn-secondary" data-edit="0">Edit</button></div>
+                  <div id="summary-contact"></div>
+                </section>
+                <section class="summary-block" aria-labelledby="summary-project-title">
+                  <div class="summary-head"><h3 id="summary-project-title">Your task</h3><button type="button" class="btn btn-secondary" data-edit="1">Edit</button></div>
+                  <div id="summary-project"></div>
+                </section>
+                <div class="consent-group" id="privacyBox" data-field="privacyAccepted">
+                  <input type="checkbox" id="privacyAccepted" name="privacyAccepted" aria-describedby="err-privacyAccepted">
+                  <label for="privacyAccepted">I have read the <a href="/privacy/" target="_blank" rel="noopener">Privacy Notice</a> and agree to the processing of these details to handle my request and contact me.</label>
+                </div>
+                <p class="field-error" id="err-privacyAccepted"></p>
+                <p class="safety-note">Sending this request does not create an account, a paid order, or a support agreement.</p>
+                <div class="hp-field" aria-hidden="true">
+                  <label for="website">Website</label>
+                  <input id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+              </div>
+              <div class="wizard-nav">
+                <button id="btn-back" class="btn btn-secondary" type="button">Back</button>
+                <span id="step-counter" class="step-counter"></span>
+                <div class="wizard-nav-right">
+                  <button id="btn-next" class="btn btn-primary" type="button">Continue</button>
+                  <button id="btn-send" class="btn btn-primary" type="submit" hidden>Send request</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="inline-success" class="success-state" role="status" aria-live="polite">
+          <h2 id="inline-title"></h2>
+          <p id="inline-text"></p>
+          <p class="success-ref" id="inline-ref"></p>
+          <a class="btn btn-secondary" href="/">Back to Care</a>
+        </div>
+        <noscript>
+          <style>.wizard-card,.stepper{display:none}</style>
+          <p class="noscript-note">Enable JavaScript to use this form, or email <a href="mailto:timur@metarhia.com">timur@metarhia.com</a>.</p>
+        </noscript>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="https://meta-qube.com/images/metaqube.png" alt="" width="24" height="24" loading="lazy">
+        <span>&copy; 2026 Meta Qube. All rights reserved.</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://meta-qube.com/">Meta Qube</a>
+        <a href="https://founders.meta-qube.com/">For founders</a>
+        <a href="https://capital.meta-qube.com/">For investors</a>
+        <a href="https://platform.meta-qube.com/">Technical platform</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="mailto:timur@metarhia.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <dialog class="lang-dialog" id="lang-dialog">
+    <p>Changing the language will clear this form.</p>
+    <div class="lang-actions">
+      <button type="button" class="btn btn-secondary" id="lang-stay">Stay here</button>
+      <button type="button" class="btn btn-primary" id="lang-change">Change language</button>
+    </div>
+  </dialog>
+  <iframe name="hidden_submit_frame" hidden title="" aria-hidden="true"></iframe>
+  <script type="application/json" id="care-i18n">{"locale":"en","privacyVersion":"2026-11-10","thanksPath":"/thank-you/","messages":{"required":"Please complete this field.","email":"Enter a valid email address.","length":"Use between {min} and {max} characters.","maxLength":"Use no more than {max} characters.","url":"Enter a public http or https URL without access credentials.","selection":"Select at least one option.","consent":"Please read the notice and confirm your agreement.","submit":"We could not confirm that your request was received. Your details remain in this form. Try again or contact us by email.","rate":"Too many attempts. Please try again later.","config":"The request form is temporarily unavailable. Please email timur@metarhia.com.","stale":"The privacy notice has changed. Review the current version before sending.","counter":"Step {current} of 3","sending":"Sending…","send":"Send request","notProvided":"Not provided","successTitle":"Your request has been received","successText":"We will review your request and contact you using the details provided. The next step is to clarify the task and a suitable engagement scope.","successReference":"Request reference: {id}","localeWarning":"Changing the language will clear this form."},"limits":{"fullName":{"min":2,"max":120},"email":{"max":254},"organization":{"max":160},"role":{"max":120},"projectName":{"max":160},"projectUrl":{"max":2048},"summary":{"min":30,"max":3000},"technologies":{"max":500}},"labels":{"fullName":"Full name","email":"Email","organization":"Company or organisation","role":"Your role","preferredLanguage":"Preferred language","audience":"Who are you representing?","services":"What kind of help do you need?","projectName":"Project or system name","projectUrl":"Public project website","summary":"The situation and the result you need","technologies":"Technologies, if known","timeframe":"When would you like to start?"},"choices":{"language":{"en":"English","uk":"Українська","ru":"Русский"},"audience":{"startup":"Startup","investor":"Investor or fund","enterprise":"Enterprise","business":"Business or delivery partner","other":"Other"},"services":{"assessment":"Technical assessment","recovery":"Recovery and modernisation","support":"Ongoing engineering support","ai_workflow":"Development and AI workflows","business_process":"Business process improvement","handover":"Engineering ownership and handover","unsure":"Help me choose"},"timeframe":{"soon":"As soon as possible","month":"Within a month","quarter":"Within three months","exploring":"Exploring options"}},"steps":[["fullName","email","organization","role","preferredLanguage"],["audience","services","projectName","projectUrl","summary","technologies","timeframe"],["privacyAccepted"]],"fieldStep":{"fullName":0,"email":0,"organization":0,"role":0,"preferredLanguage":0,"audience":1,"services":1,"projectName":1,"projectUrl":1,"summary":1,"technologies":1,"timeframe":1,"privacyAccepted":2},"fieldOrder":["fullName","email","organization","role","preferredLanguage","audience","services","projectName","projectUrl","summary","technologies","timeframe","privacyAccepted"]}</script>
+  <script src="/assets/validate.js"></script>
+  <script src="/assets/site.js"></script>
+  <script src="/assets/apply.js"></script>
+</body>
+</html>
