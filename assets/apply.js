@@ -240,9 +240,17 @@
       if (index === step) node.setAttribute('aria-current', 'step');
       else node.removeAttribute('aria-current');
     });
-    document.getElementById('btn-back').hidden = step === 0;
-    document.getElementById('btn-next').hidden = step === 2;
-    document.getElementById('btn-send').hidden = step !== 2;
+    const last = steps.length - 1;
+    const isLast = step === last;
+    document.getElementById('btn-back').style.visibility = step === 0
+      ? 'hidden'
+      : 'visible';
+    document.getElementById('btn-next').style.display = isLast
+      ? 'none'
+      : 'inline-flex';
+    document.getElementById('btn-send').style.display = isLast
+      ? 'inline-flex'
+      : 'none';
     document.getElementById('step-counter').textContent = format(msg.counter, {
       current: step + 1,
     });
@@ -372,6 +380,7 @@
   });
 
   document.getElementById('btn-next').addEventListener('click', () => {
+    if (current >= steps.length - 1) return;
     if (!validateCurrent()) return;
     showStep(current + 1, true);
   });
